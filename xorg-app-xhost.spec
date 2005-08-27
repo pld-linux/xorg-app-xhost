@@ -1,4 +1,4 @@
-# $Rev: 3393 $, $Date: 2005-08-15 12:17:57 $
+# $Rev: 3393 $, $Date: 2005-08-27 17:42:47 $
 #
 Summary:	xhost application
 Summary(pl):	Aplikacja xhost
@@ -15,7 +15,7 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	xorg-lib-libXmu-devel
 BuildRequires:	xorg-util-util-macros
-BuildRequires:	pkg-config
+BuildRequires:	pkgconfig >= 0.19
 BuildRoot:	%{tmpdir}/xhost-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
