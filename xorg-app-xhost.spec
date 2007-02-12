@@ -1,5 +1,5 @@
 Summary:	xhost application
-Summary(pl.UTF-8):   Aplikacja xhost
+Summary(pl.UTF-8):	Aplikacja xhost
 Name:		xorg-app-xhost
 Version:	1.0.1
 Release:	1
