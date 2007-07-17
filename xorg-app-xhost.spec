@@ -1,5 +1,5 @@
-Summary:	xhost application
-Summary(pl.UTF-8):	Aplikacja xhost
+Summary:	xhost - server access control program for X
+Summary(pl.UTF-8):	xhost - program do kontroli dostępu do serwera X
 Name:		xorg-app-xhost
 Version:	1.0.2
 Release:	1
@@ -19,10 +19,13 @@ BuildRequires:	xorg-util-util-macros >= 0.99.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-xhost application.
+The xhost program is used to add and delete host names or user names
+to the list allowed to make connections to the X server.
 
 %description -l pl.UTF-8
-Aplikacja xhost.
+Program xhost służy do dodawania i usuwania nazw hostów lub
+użytkowników do/z listy zezwalającej na wykonywanie połączeń do
+serwera X.
 
 %prep
 %setup -q -n xhost-%{version}
