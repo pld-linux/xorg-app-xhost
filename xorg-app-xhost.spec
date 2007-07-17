@@ -1,12 +1,12 @@
 Summary:	xhost application
 Summary(pl.UTF-8):	Aplikacja xhost
 Name:		xorg-app-xhost
-Version:	1.0.1
+Version:	1.0.2
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xhost-%{version}.tar.bz2
-# Source0-md5:	5300c9aafa58878c8f6e85379d5c199c
+# Source0-md5:	f746aba36f075ae4cae313d849a94f4e
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
