@@ -1,12 +1,12 @@
 Summary:	xhost - server access control program for X
 Summary(pl.UTF-8):	xhost - program do kontroli dostępu do serwera X
 Name:		xorg-app-xhost
-Version:	1.0.5
+Version:	1.0.6
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xhost-%{version}.tar.bz2
-# Source0-md5:	a0fcd2cb6ddd9f378944cc6f4f83cd7c
+# Source0-md5:	f1669af1fe0554e876f03319c678e79d
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
@@ -15,6 +15,7 @@ BuildRequires:	xorg-lib-libXau-devel
 # just xmuu
 BuildRequires:	xorg-lib-libXmu-devel
 BuildRequires:	xorg-lib-xtrans-devel
+BuildRequires:	xorg-proto-xproto-devel >= 7.0.22
 BuildRequires:	xorg-util-util-macros >= 1.8
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
